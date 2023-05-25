@@ -1,0 +1,16 @@
+li{
+  background-color: #d9d9d9;
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding: 1rem;
+  list-style: none;
+
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+span{
+  float: right;
+  
+}
