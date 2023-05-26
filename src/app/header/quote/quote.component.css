@@ -1,7 +1,11 @@
 .container{
  display: flex;
  flex-direction: column;
+ justify-content: center;
  align-items: center;
+ flex-shrink: inherit;
+ /* border: 1px solid black; */
+ height: 425px;
 }
 h4{
   font-size: 2em;
