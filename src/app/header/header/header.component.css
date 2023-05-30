@@ -1,16 +1,10 @@
-.container {
-  height: 60vh;
-  background-color: #d9d9d9;
-  width: 100%;
-  position: relative;
-}
-
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3vh 5vw;
+  padding: 0.5vh 5vw;
   border-bottom: 1px solid rgb(154, 154, 154);
+  background-color: #d9d9d9;
 }
 
 .logo {
@@ -19,6 +13,7 @@
   align-items: center;
   border: 1px solid rgb(112, 112, 112);
   padding: 1rem 0rem 1rem 0rem;
+  cursor: pointer;
 }
 
 .logo h1 {

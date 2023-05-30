@@ -1,11 +1,12 @@
-.container{
+/* .container{
  display: flex;
  flex-direction: column;
  justify-content: center;
  align-items: center;
  flex-shrink: inherit;
- /* border: 1px solid black; */
+ border: 1px solid black;
  height: 425px;
+ position: relative;
 }
 h4{
   font-size: 2em;
@@ -14,4 +15,33 @@ h4{
 p{
   font-style: italic;
 
+} */
+.container{
+  position: relative;
+  /* border: 1px solid black; */
+}
+img{
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  object-position: center center;
+}
+.bg{
+  width:100vw;
+  height: fit-content;
+}
+.quote{
+  position: absolute;
+  color: white;
+  top: 45%;
+  margin-left: 1rem;
+}
+.quote h4{
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+.quote p{
+  font-style: italic;
+  letter-spacing: 0.1rem;
 }
